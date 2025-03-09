@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .primary-btn {
+        @apply bg-accent text-white font-bold py-2 px-4 rounded hover:bg-accent-dark transition-colors;
+    }
+
+    .secondary-btn {
+        @apply bg-transparent border-2 border-accent text-accent font-bold py-2 px-4 rounded hover:bg-accent/10 transition-colors;
+    }
+}

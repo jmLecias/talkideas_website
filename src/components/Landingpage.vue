@@ -16,7 +16,7 @@ const toggleMenu = () => {
       <div class="navbar-brand">
         <a href="#" class="logo">Talk<span>Ideas</span></a>
       </div>
-      
+    
       <div class="menu-toggle" @click="toggleMenu">
         <div class="hamburger" :class="{ 'active': isMenuOpen }">
           <span></span>

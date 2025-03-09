@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#345801',
+              'primary-light': '#4F7D11',
+              'accent': '#E29B03',
+              'accent-dark': '#c98902',
+              'light-bg': '#f7f9f0',
+            }
+          }
+        }
+      }
+    </script>
+    <title>TalkIdeas</title>
   </head>
   <body>
     <div id="app"></div>
