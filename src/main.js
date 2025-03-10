@@ -1,3 +1,4 @@
+import './style.css';
 import './assets/main.css'
 import './assets/tailwind.css'
 import './css/landing-page.css'
