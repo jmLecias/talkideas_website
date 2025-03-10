@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 
-// Define props for the component
+
 defineProps<{
     buttonText: string;
     dropdownItems: { text: string; href?: string }[];
@@ -14,7 +14,6 @@ const toggleDropdown = () => {
     dropdownOpen.value = !dropdownOpen.value;
 };
 
-// Function to close dropdown when clicking outside
 const handleClickOutside = (event: MouseEvent) => {
     if (
         dropdownButtonRef.value &&

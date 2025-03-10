@@ -1,10 +1,12 @@
 <script setup>
 import Landingpage from '@/components/Landingpage.vue';
+import NavBar from '@/components/NavBar.vue';
 </script>
 
 <template>
   <main class="home-view">
-    <Landingpage />
+    <NavBar />
+    <!-- <Landingpage /> -->
   </main>
 </template>
 

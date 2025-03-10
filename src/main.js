@@ -1,7 +1,9 @@
 import './style.css';
-import './assets/main.css'
-import './assets/tailwind.css'
-import './css/landing-page.css'
+import './assets/main.css';
+// import './assets/css/swiper-bundle.min.css';
+// import './assets/css/animate.css';
+// import './css/tailwind.css';
+import './assets/css/landing-page.css';
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

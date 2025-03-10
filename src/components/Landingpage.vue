@@ -53,7 +53,7 @@ const toggleMenu = () => {
         </div>
       </div>
       <div class="hero-image">
-        <img src="@/assets/images/talkideas.jpg" alt="TalkIdeas Education and Training" class="first-image">
+        <img src="/images/talkideas.jpg" alt="TalkIdeas Education and Training" class="first-image">
       </div>
     </section>
 
@@ -94,7 +94,7 @@ const toggleMenu = () => {
             presentation concepts that resonate with various audiences.</p>
         </div>
         <div class="about-image">
-          <img src="@/assets/images/team-image.jpg" alt="TalkIdeas Team" class="team-photo">
+          <img src="/images/team-image.jpg" alt="TalkIdeas Team" class="team-photo">
         </div>
       </div>
     </section>

@@ -1,10 +1,12 @@
 @import './base.css';
 
 #app {
-  max-width: 100%; /* Changed from 1280px to 100% */
+  max-width: 100%;
+  /* Changed from 1280px to 100% */
   width: 100%;
   margin: 0;
-  padding: 0; /* Removed padding */
+  padding: 0;
+  /* Removed padding */
   font-weight: normal;
 }
 
@@ -16,20 +18,23 @@ a,
   padding: 3px;
 }
 
-@media (hover: hover) {
+/* @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
-}
+} */
 
 @media (min-width: 1024px) {
   body {
-    display: block; /* Changed from flex to block */
-    place-items: normal; /* Remove the centering */
+    display: block;
+    /* Changed from flex to block */
+    place-items: normal;
+    /* Remove the centering */
   }
 
   #app {
-    display: block; /* Changed from grid to block */
+    display: block;
+    /* Changed from grid to block */
     /* Removed grid-template-columns: 1fr 1fr */
     padding: 0;
   }
