@@ -17,13 +17,6 @@ const toggleMenu = () => {
         <a href="#" class="logo">Talk<span>Ideas</span></a>
       </div>
 
-      <DropdownButton buttonText="Menuss" :dropdownItems="[
-        { text: 'Dashboard', href: '#' },
-        { text: 'Settings', href: '#' },
-        { text: 'Earnings', href: '#' },
-        { text: 'Logout', href: '#' }
-      ]" />
-
       <div class="menu-toggle" @click="toggleMenu">
         <div class="hamburger" :class="{ 'active': isMenuOpen }">
           <span></span>

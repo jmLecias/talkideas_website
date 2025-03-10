@@ -1,11 +1,13 @@
 <script setup>
 import Landingpage from '@/components/Landingpage.vue';
 import NavBar from '@/components/NavBar.vue';
+import Hero from '@/components/Hero.vue';
 </script>
 
 <template>
   <main class="home-view">
     <NavBar />
+    <Hero />
     <!-- <Landingpage /> -->
   </main>
 </template>
