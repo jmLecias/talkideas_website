@@ -41,8 +41,8 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <header class="flex w-full items-center bg-white dark:bg-dark">
-        <div class="container">
+    <div class="absolute     top-0 left-0 z-40 flex w-full items-center bg-white dark:bg-dark">
+        <div class="container px-4 mx-auto">
             <div class="relative -mx-4 flex items-center justify-between">
                 <!-- Logo Section -->
                 <div class="w-60 max-w-full px-4">
@@ -89,5 +89,5 @@ onUnmounted(() => {
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 </template>

@@ -3,6 +3,7 @@ import Landingpage from '@/components/Landingpage.vue';
 import NavBar from '@/components/NavBar.vue';
 import Hero from '@/components/Hero.vue';
 import Features from '@/components/Features.vue';
+import About from '@/components/About.vue';
 
 const navLinks = [
   { text: 'Home', href: '/' },
@@ -17,6 +18,7 @@ const navLinks = [
     <NavBar :navLinkItems="navLinks" />
     <Hero />
     <Features />
+    <About />
     <Landingpage />
   </main>
 </template>
